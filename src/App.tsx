@@ -68,7 +68,6 @@ function App() {
         setTodolists(todolists.map(m => m.id === todolistID ? {...m, filter: value} : m))
     }
 
-
     return (
         <div className="App">
             {todolists.map(t => {
